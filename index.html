@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Paste</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="#">Coffee Paste</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Promo</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" aria-disabled="true"><i class="bi bi-cart"></i> Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid banner d-flex align-items-center">
+        <div class="container">
+            <h1 class="text-light text-center display-5 mb-3">Selamat Datang di Coffee Paste</h1>
+            <h2 class="text-light text-center display-8 mb-4">Mau Makan Apa Hari Ini?</h2>
+            <div class="col-md-8 offset-md-2">
+                <div class="input-group input-group-lg">
+                    <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Pilih Kategori Makanan...</option>
+                        <option value="1">Local Food</option>
+                        <option value="2">Western Food</option>
+                        <option value="3">Eastern Food</option>
+                    </select>
+                    <button class="btn btn-lg btn-warning text-light" type="button">Telusuri</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center">Promo Minggu Ini</h2>
+
+            <div class="row mt-5 justify-content-center">
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <img src="image/product/thumb/cheese-cake.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beli 2 gratis 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sit?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <img src="image/product/thumb/coffee.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beli 1 gratis 1 pastry</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sit?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <img src="image/product/thumb/brownies.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beli 2 gratis 1 coffee</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sit?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-4 d-flex justify-content-center">
+                    <a href="promo.html" class="btn btn-warning btn-lg text-light text-center">Lihat Semua Promo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 main-color">
+        <div class="container">
+            <h2 class="text-light text-center mb-5">Kami Melayani</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon-circle d-flex align-items-center justify-content-center">
+                            <i class="bi bi-bicycle display-6"></i>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-light text-center">
+                        <h5>Delivery</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam accusantium quia
+                            fugiat consectetur nesciunt.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon-circle d-flex align-items-center justify-content-center">
+                            <i class="bi bi-basket display-6"></i>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-light text-center">
+                        <h5>Take Away</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam accusantium quia
+                            fugiat consectetur nesciunt.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon-circle d-flex align-items-center justify-content-center">
+                            <i class="bi bi-cup-straw display-6"></i>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-light text-center">
+                        <h5>Dine In</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam accusantium quia
+                            fugiat consectetur nesciunt.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Paling Banyak Dibeli</h2>
+
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <a href="image/product/french-fries.jpg" data-lightbox="produk-french-fries"
+                            data-title="French Fries">
+                            <img src="image/product/thumb/french-fries.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">French Fries</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4 class="text-warning">Rp 20.000</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <a href="image/product/honey-pancake.jpg" data-lightbox="produk-honey-pancake"
+                            data-title="Honey Pancake">
+                            <img src="image/product/thumb/honey-pancake.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Honey Pancake</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4 class="text-warning">Rp 30.000</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <a href="image/product/chicken-dish.jpg" data-lightbox="produk-chicken-dish"
+                            data-title="Chicken Dish">
+                            <img src="image/product/thumb/chicken-dish.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Chicken Dish</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4 class="text-warning">Rp 35.000</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <a href="image/product/coffee.jpg" data-lightbox="produk-coffee" data-title="Cappucino">
+                            <img src="image/product/thumb/coffee.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Cappucino</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4 class="text-warning">Rp 18.000</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 d-flex justify-content-center">
+                <a href="produk.html" class="btn btn-warning btn-lg text-light">Lihat Lainnya</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 main-color">
+        <div class="container">
+            <h2 class="text-center text-light mb-5">Apa Kata Customer</h2>
+
+            <div class="row" data-masonry='{"percentPosition": true }'>
+                <div class="col-lg-4 testimony-content mb-3">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Makanannya Enak-enak</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Chef Juna
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam voluptate incidunt,
+                                praesentium esse cupiditate nostrum culpa omnis numquam neque quidem.
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 testimony-content mb-3">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Tempatnya nyaman dan bersih</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Chef Arnold
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt voluptas
+                                repellat debitis delectus perspiciatis quia autem nam iure voluptates error fugiat,
+                                obcaecati dolores aperiam?
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 testimony-content mb-3">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Pelayanannya bagus, karyawannya ramah-ramah</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Freya JKT48
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, suscipit fugit
+                                reprehenderit obcaecati aperiam praesentium sit, nihil asperiores harum a adipisci,
+                                neque incidunt rerum officiis.
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 testimony-content mb-3">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Delivery Cepat</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Lisa BLACKPINK
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, obcaecati in.
+                                Blanditiis, maiores dignissimos. Mollitia, quibusdam molestiae perspiciatis sint veniam
+                                dolor quidem quod delectus maxime reiciendis officia quisquam eligendi commodi?
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 testimony-content mb-3">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Wifinya Kenceng</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Windah Basudara
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 testimony-content mb-3">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Parkirannya Luas</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Arief Muhammad
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center">Reservasi</h2>
+            <p class="text-center">Jangan Sampai Kehabisan Tempat. Segera Reservasi Sekarang!!!</p>
+
+            <form class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-5">
+                <div class="mb-3">
+                    <label for="nama" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="nama">
+                </div>
+                <div class="mb-3">
+                    <label for="nokontak" class="form-label">No. Kontak</label>
+                    <input type="text" class="form-control" id="nokontak">
+                </div>
+                <div class="mb-3">
+                    <label for="jumlahmeja" class="form-label">Jumlah Meja</label>
+                    <input type="number" class="form-control" id="jumlahmeja">
+                </div>
+                <div>
+                    <button class="btn btn-warning text-light w-100">Reservasi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 content-subscribe text-light">
+        <div class="container">
+            <h5 class="text-center mb-4">Temui Kami</h5>
+            <div class="row justify-content-center">
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-facebook fs-4"></i>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-instagram fs-4"></i>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-twitter-x fs-4"></i>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center">
+                    <i class="bi bi-youtube fs-4"></i>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="container-fluid py-3 bg-dark text-light">
+        <div class="container d-flex justify-content-between">
+            <label>&copy;2024 Cafe Saya</label>
+            <label>Created by Fernando Susanthoz</label>
+        </div>
+    </div>
+        
+
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+</body>
+
+</html>
